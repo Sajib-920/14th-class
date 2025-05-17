@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #555;
+    text-align: center;
+    line-height: 100px;
+    margin: bottom 10%;
+
+}
+
+.box1 {
+    position: relative;
+    background-color: red;
+
+
+}
+.box2{
+    position: sticky;
+    left: 300px;
+}
+.box3{
+    position: fixed;
+    top: 100px;
+    left: 600px;
+    right: 400px;
+
+}
+.box4{
+    position: absolute;
+    top: 4 ;
+
+
+
+}
